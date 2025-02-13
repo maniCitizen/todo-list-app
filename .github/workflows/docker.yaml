@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - './src/static/index.html'
 
 jobs:
   push_to_registry:
